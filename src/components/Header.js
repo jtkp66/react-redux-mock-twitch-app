@@ -9,10 +9,10 @@ const Header = () => {
                 Spastic
             </Link>
             <div className="right menu">
-            <Link to="/" className="item">
-                All Streams, Bruh!
-            </Link>
-            <GoogleAuth />
+                <Link to="/" className="item">
+                    All Streams, Bruh!
+                </Link>
+                <GoogleAuth />
             </div>
         </div>
     );
